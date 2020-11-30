@@ -1,0 +1,24 @@
+apply {
+    plugin 'groovy'
+    plugin 'java-gradle-plugin'
+}
+
+repositories {
+    google()
+    jcenter()
+}
+
+dependencies {
+    implementation gradleApi()
+    implementation localGroovy()
+    implementation 'commons-io:commons-io:2.6'
+
+}
+
+sourceSets {
+    main {
+        groovy {
+            srcDirs += 'src/main/java'
+        }
+    }
+}

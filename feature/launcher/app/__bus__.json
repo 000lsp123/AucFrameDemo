@@ -1,0 +1,9 @@
+{
+  "BusUtilsClass": "com.blankj.utilcode.util.BusUtils",
+  "rightBus": {
+    "feature0_show_toast": [
+      "{ desc: com.lsp.feature0.pkg.Feature0Activity#showToast(java.lang.String msg) }"
+    ]
+  },
+  "wrongBus": {}
+}

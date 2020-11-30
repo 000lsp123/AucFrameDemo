@@ -1,0 +1,25 @@
+buildscript {
+    ConfigUtils.init(gradle)
+
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        for (def entrySet : ConfigUtils.getApplyPlugins().entrySet()) {
+            classpath entrySet.value.dep
+        }
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

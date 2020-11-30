@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lsp.feature0.pkg">
+    <application>
+        <activity
+            android:name=".Feature0Activity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="user"
+            android:windowSoftInputMode="stateHidden" />
+    </application>
+
+</manifest>

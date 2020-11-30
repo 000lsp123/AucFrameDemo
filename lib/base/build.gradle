@@ -1,0 +1,10 @@
+dependencies {
+
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    api Config.depConfig.android_annotation.dep
+    api Config.depConfig.android_appcompat.dep
+    api Config.depConfig.android_material.dep
+    api Config.depConfig.android_constraintlayout.dep
+
+    api Config.depConfig.utilcode.dep
+}

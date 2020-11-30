@@ -1,0 +1,5 @@
+<resources>
+    <string name="feature0_title">Feature0</string>
+    <string name="start_feature1">Start Feature1</string>
+    <string name="show_bus_toast">show Bus Toast</string>
+</resources>
